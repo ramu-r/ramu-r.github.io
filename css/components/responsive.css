@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  article .article-top-meta {
+    text-align: left;
+  }
+  article .article-top-meta span {
+    margin: 0;
+  }
+}

@@ -1,0 +1,38 @@
+html {
+  font-size: 12px;
+  -webkit-text-size-adjust: 100%;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Libre Baskerville", Georgia, serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+body .blog {
+  max-width: 1170px;
+  min-height: 100vh;
+  background-color: #fff;
+  margin: 0 auto;
+}
+body .blog .content {
+  box-sizing: border-box;
+  max-width: 760px;
+  width: 100%;
+  padding: 80px 10px 10px;
+  margin: 0 auto;
+}
+body.index .content {
+  max-width: 660px;
+}
