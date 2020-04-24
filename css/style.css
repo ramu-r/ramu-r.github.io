@@ -557,6 +557,7 @@ article blockquote {
   padding-left: 15px;
   line-height: 2rem;
   border-left: 4px solid #f03838;
+  font-size: 2rem;
 }
 article .article-body {
   max-width: 600px;
