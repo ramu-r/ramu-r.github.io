@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="ramu-r.github.io/"/>
-  <updated>2020-04-25T11:33:05.236Z</updated>
+  <updated>2020-04-26T13:42:36.783Z</updated>
   <id>ramu-r.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Why Principal Secretary not taking legal advice for the Sprinklr Contract has no legal backing</title>
+    <link href="ramu-r.github.io/articles/Sprinkler%20Secretary%20Discretion/"/>
+    <id>ramu-r.github.io/articles/Sprinkler Secretary Discretion/</id>
+    <published>2020-04-25T18:30:00.000Z</published>
+    <updated>2020-04-26T13:42:36.783Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/illustrations/contract.png" alt=""></p><p>The Principle IT Secretary claims that it is within his discretion to sign the Sprinklr contract without advice from the legal department. This seems to be without legal backing.</p><a id="more"></a> <p>Generally speaking, Kerala government’s ‘Rules of Business’ say the Law department should be consulted on every contract being entered into by the government. </p><p>One of the clauses under the ‘Rules of Business’ allows an exception only for <strong>material contracts</strong> without consultation of the legal department. This might be the basis for the Principle Secretary’s argument of his discretion. </p><p>But the key word here is ‘material’. Material contracts are different from other contracts. Legal implications from material contracts are finite and bounded. If a contract for a few tons of steel leads to litigation, the most the state would have to pay is the price of the material. And there too the ‘Rule of Business’ sets upper limits on the amount allowed for the exceptions to be allowed.</p><p>When it comes to the Sprinklr, a contract for sharing medical data isn’t a material contract. It wouldn’t fall unders the exceptions allowed to the Principal Secretary. It even brings in additional <a href="/articles/Why%20the%20Sprinklr%20contract%20runs%20afoul%20of%20the%20fundamental%20protection%20to%20privacy/">privacy issues</a>. The possible legal implications are vast if every person whose data was shared decides to pursue privacy litigation. </p><h3 id="High-Court’s-Questions"><a href="#High-Court’s-Questions" class="headerlink" title="High Court’s Questions"></a>High Court’s Questions</h3><p>Due to the increasing complexity of the administrative machinery, the judiciary in recent decades recognizes administrative discretion shouldn’t be seen mechanically. In line with this, the judiciary takes a presumption the public official is trying to do his duty honestly<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> which is why the court went on to ask the secretary why the legal advice was not taken. How this would proceed from here depends on the principal secretary’s explanation.</p><p>Furthermore, judiciary has followed an ‘Adequate Safeguards Theory’<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> emphasizing on whether the procedure has adequate safeguards to those who are affected by the action. And this was the second question the High Court put to the Principal Secretary, how he is going to fix this situation.</p><h3 id="Why-would-he-do-it"><a href="#Why-would-he-do-it" class="headerlink" title="Why would he do it"></a>Why would he do it</h3><p>Its beyond reason someone who is as senior as a Principal Secretary make so elementary a mistake. Why didn’t he pass on a copy to the legal department? A reasonable inference would be that the Minister in charge of the department had an interest in the contract and wanted to get it done during the crisis without drawing attention to it.</p><p>Then why is he willing to take the fall for the someone else? Because the IT department comes under the Chief Minister who is known for being vindictive towards civil servants who had not towed his line<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>. It’s plain to see for anyone who has been at a ministerial or at a joint secretary level, and seen how government contracts work, which led to Chennithala’s allegations.</p><p>Thus this isn’t a case of a Principal Secretary breaking the law due to a crisis, but of an otherwise honest civil servant being forced by a minister.</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://indiankanoon.org/doc/183512138/" target="_blank" rel="noopener">Center for Public  Interest  Litigation  v.  Union  of  India</a></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">Avinder Singh v. State of Punjab, AIR 1979 SC 321; Organ India Ltd. v. Collector of Excise and other, AIR 1994 SC 2489; D.K. Trivedi v. State of Gujarat, AIR 1986 SC 1322; D. K. Prasad Rao v. Govt, of A. P., AIR 1984 AP 75; Bidhanagar Welfare Association v. Central Valuation Board, (2007)</span><a href="#fnref:2" rev="footnote"> ↩</a></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">3.</span><span style="display: inline-block; vertical-align: top;"><a href="https://www.thehindu.com/news/national/kerala/blow-for-ldf-govt-as-sc-orders-reinstatement-of-tp-senkumar/article18198736.ece" target="_blank" rel="noopener">SenKumar</a>, <a href="https://english.manoramaonline.com/news/kerala/2019/08/30/pinarayi-to-take-call-on-reinstating-jacob-thomas.html" target="_blank" rel="noopener">Jacob Thomas</a>, Collector Vasuki recently</span><a href="#fnref:3" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/illustrations/contract.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The Principle IT Secretary claims that it is within his discretion to sign the Sprinklr contract without advice from the legal department. This seems to be without legal backing.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="article" scheme="ramu-r.github.io/categories/article/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Why the Sprinklr contract runs afoul of the fundamental protection to privacy</title>
@@ -207,26 +228,6 @@
     </summary>
     
       <category term="blog" scheme="ramu-r.github.io/categories/blog/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Fiat money creation in an economy</title>
-    <link href="ramu-r.github.io/articles/Fiat%20money%20creation/"/>
-    <id>ramu-r.github.io/articles/Fiat money creation/</id>
-    <published>2018-12-09T18:30:00.000Z</published>
-    <updated>2020-03-27T13:55:25.490Z</updated>
-    
-    <content type="html"><![CDATA[<p>The money creation process in an economy is a cycle of estimating future productive work, creating money for that level of activity and then checking if the estimate was wrong and adjusting the next cycle accordingly.</p><a id="more"></a> <p>In practice, The money creation step is done by the central bank through the commercial banks and the central banks only manages the whole process.</p><h3 id="Money-creation"><a href="#Money-creation" class="headerlink" title="Money creation"></a>Money creation</h3><p>Banks create Fiat Money through debts. The banks can give out more loans than they have deposits, which creates fiat money. It is called fiat because it is paper money without anything like gold to back it. Any value is based on estimates of future productivity than existing value. The existance of future productivity is ensured by banks as they give loans only to viable projects, not for flights of fantasy. This is the money creation step.</p><p>As the loan amount is spend by the individual, it leads to a small dose of inflation because now there’s more money without value. Say it is spend to create a factory or workshop. When this productive work finishes, it would have created some new value to make up for the increase in the new money in the economy thus bringing down that small dose of inflation.</p><p>What if the the money is not spend on any productive enterprise? It would cause the small dose of inflation to persist and when large amounts of the economy as a whole indugle in wasteful enterprise, it would lead to largescale noticeable inflation. It is the central bank’s job to ensure it doesn’t come to that.</p><h3 id="Adjusting-future-money-creation"><a href="#Adjusting-future-money-creation" class="headerlink" title="Adjusting future money creation"></a>Adjusting future money creation</h3><p>The central bank checks if the money is being spent on productive work  or not, so that it can limit future money creation. This is done through the rate of inflation. If banks allowed individuals to keep on taking new loans and spending it on booze, it would lead to more money than production, leading to higher inflation rates. If the inflation rate in the economy as a whole is higher, the central banks knows more money is being created than productive work in the economy.</p><p>The central banks controls the money supply by adjusting the bank rate, repo rate, CRR and similar measures. In a scenario of high inflation, the central bank turns these levers to reduce the loan creation in the economy thus reducing creation of money.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;The money creation process in an economy is a cycle of estimating future productive work, creating money for that level of activity and then checking if the estimate was wrong and adjusting the next cycle accordingly.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="article" scheme="ramu-r.github.io/categories/article/"/>
     
     
   </entry>
