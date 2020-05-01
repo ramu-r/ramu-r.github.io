@@ -606,6 +606,7 @@ article .article-top-meta a:hover {
 }
 article .article-top-meta a time {
   font-style: italic;
+  font-weight: bold;
 }
 article .article-header {
   overflow: auto;
