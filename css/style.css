@@ -583,6 +583,9 @@ article .article-title a:hover {
 article .article-title a:hover span {
   box-shadow: inset 0 -2px 0 rgba(240,56,56,0.4);
 }
+article .item-book .article-title {
+  margin-top: 3rem;
+}
 article .article-top-meta {
   color: #9e9e9e;
   font-size: 1.3rem;
@@ -603,6 +606,23 @@ article .article-top-meta a:hover {
 }
 article .article-top-meta a time {
   font-style: italic;
+}
+article .article-header {
+  overflow: auto;
+}
+article .articlepic {
+  display: block;
+  float: left;
+}
+article .articlepic img {
+  max-height: 200px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+article .article-author {
+  color: #9e9e9e;
+  margin-top: -1.5rem;
 }
 article .article-excerpt,
 article .article-content,
