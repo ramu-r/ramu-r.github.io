@@ -1672,3 +1672,15 @@ section#about p {
   -webkit-hyphens: none;
   text-align: left;
 }
+#reading ul.post-list {
+  margin-left: 20px;
+}
+#reading ul.post-list li.post-item {
+  margin-bottom: 30px;
+}
+#reading ul.post-list .meta img {
+  width: 80px;
+}
+#reading span.author {
+  color: #666;
+}
