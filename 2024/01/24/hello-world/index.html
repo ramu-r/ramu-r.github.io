@@ -14,7 +14,7 @@
 <meta property="og:description" content="I decided to write about things I code and circled back to Hexo. I wanted a static site generator in order to host on github. I admantly wanted to avoid managing plain text in databases. I wanted some">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-01-24T17:58:39.998Z">
-<meta property="article:modified_time" content="2024-01-25T13:12:55.826Z">
+<meta property="article:modified_time" content="2024-01-25T13:26:42.696Z">
 <meta property="article:author" content="Ramu Rajasekharan">
 <meta name="twitter:card" content="summary">
     
@@ -80,8 +80,6 @@
       <ul>
         
         
-        <li><a class="icon" aria-label="Next post" href="/2024/01/21/using-prisma.js/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
-        
         <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
       </ul>
@@ -110,7 +108,7 @@
     
     
       <div id="toc">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Setting-up-hexo"><span class="toc-number">1.</span> <span class="toc-text">Setting up hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Deploying-with-Hexo"><span class="toc-number">2.</span> <span class="toc-text">Deploying with Hexo</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Setting-up-hexo"><span class="toc-number">1.</span> <span class="toc-text">Setting up hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Deploying-from-Hexo"><span class="toc-number">2.</span> <span class="toc-text">Deploying from Hexo</span></a></li></ol>
       </div>
     
   </span>
@@ -166,17 +164,13 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ./themes/</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/probberechts/hexo-theme-cactus.git</span><br></pre></td></tr></table></figure>
 
 <p>Change the value for theme in <code>_config.yml</code> (should be around line no 99 towards the end) and restart hexo from the terminal, you should be able to see hexo running with the Cactus theme.</p>
-<h2 id="Deploying-with-Hexo"><a href="#Deploying-with-Hexo" class="headerlink" title="Deploying with Hexo"></a>Deploying with Hexo</h2><p>Hexo suggests a one command deployment to git where you give the repo name in the config file and Hexo deploys to it automatically. But I decided to take a different route and serve my blog from the &#x2F;docs folder of repo where I’m storing the source of my blog.</p>
-<p>In the official method, the source files and the generated files are stored in two different repos. Or I’d have to store them in the same repo in two branches. That’s not waht branches are for and I don’t want multiple branches for my blog. If I’m going to store my source files and the generated blog in github, I don’t want to be bothering with two seperate commits for what would essentially be one new post. Besides, I can have custom commit messages if I commit manually.</p>
-<p>In my method,</p>
-<ul>
-<li>I set the <code>public_dir</code> in my &#96;_config.yml&#96;&#96; as ‘docs’</li>
-<li>In the settings for the github repo, I select the ‘Source’ option to be ‘master’ branch ‘&#x2F;docs’ folder</li>
-</ul>
-<p>Now if you generate and commit the blog, it should show up at username.github.io. It can be done by</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">git commit -m <span class="string">&#x27;my initial post</span></span><br></pre></td></tr></table></figure>
+<h2 id="Deploying-from-Hexo"><a href="#Deploying-from-Hexo" class="headerlink" title="Deploying from Hexo"></a>Deploying from Hexo</h2><p>Hexo suggests a one command deployment to git where you give the repo name in the config file and Hexo deploys to it automatically.</p>
+<p>Enter the repo details in <code>_config.yml</code> as follows</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/ramu-r/ramu-r.github.io</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br><span class="line">  <span class="attr">message:</span> <span class="string">&quot;Site updated: <span class="template-variable">&#123;&#123; now(&#x27;YYYY-MM-DD HH:mm:ss&#x27;) &#125;&#125;</span>&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p> A limitation of this method is that the source files of your blog are by default public while if you store it in two different repos, the source need not have to be public. But I guess it doesn’t matter much since whatever drafts I have in my source are meant to be public anyway. Another limitation is that every time I change the source files, the generated files also show up in my changes, which ideally shouldn’t. But that’s the price I’ve to pay for housing them together.</p>
+<p>The blog can now be deployed by running</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy  </span><br></pre></td></tr></table></figure>
+<p>If you have correctly setup your <a target="_blank" rel="noopener" href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">github pages settings</a> your blog should be online at this point.</p>
 
   </div>
 </article>
@@ -202,7 +196,7 @@
     
     
       <div id="toc-footer" style="display: none">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Setting-up-hexo"><span class="toc-number">1.</span> <span class="toc-text">Setting up hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Deploying-with-Hexo"><span class="toc-number">2.</span> <span class="toc-text">Deploying with Hexo</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Setting-up-hexo"><span class="toc-number">1.</span> <span class="toc-text">Setting up hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Deploying-from-Hexo"><span class="toc-number">2.</span> <span class="toc-text">Deploying from Hexo</span></a></li></ol>
       </div>
     
 
